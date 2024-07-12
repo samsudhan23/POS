@@ -1,0 +1,14 @@
+.end {
+    height: 24px;
+    width: 26px;
+    background-color: red;
+    padding: 10px;
+}
+.mat-mdc-form-field-subscript-wrapper mat-mdc-form-field-bottom-align ::before {
+    margin-bottom: -23px;
+}
+
+.mat-accent {
+    background-color: rgb(46, 194, 110);
+}
+

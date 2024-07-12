@@ -1,0 +1,144 @@
+.mat-mdc-form-field-subscript-wrapper mat-mdc-form-field-bottom-align ::before {
+    margin-bottom: -23px;
+}
+
+.mat-accent {
+    background-color: rgb(46, 194, 110);
+}
+
+.end {
+    height: 24px;
+    width: 26px;
+    background-color: red;
+    padding: 10px;
+}
+
+.body {
+    overflow: hidden;
+    // background-color: #ced4da;
+    /* Hide scrollbars */
+}
+
+.example-container {
+    // width: 500px;
+    height: 700px;
+    // border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.example-sidenav-content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.example-sidenav {
+    background: #e2ebed;
+}
+
+.hovereff:hover {
+    // background-color: yellow;
+    transform: translateY(5px);
+    box-shadow: inset 0px 1px 5px 3px rgba(112, 170, 170, 0.25);
+    cursor: pointer;
+    // border-radius: 8px;
+
+}
+
+.card {
+
+    word-wrap: break-word;
+    background-color: #e2ebed;
+    background-clip: border-box;
+    border: 1px solid #00000020;
+    border-radius: 0.8rem;
+}
+
+.table-body {
+    display: block;
+    max-height: 500px;
+    /* Adjust this value as needed */
+    // overflow-y: auto;
+}
+
+.table-body tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+thead,
+tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.table-body-container {
+    height: 530px;
+    /* Adjust this value as needed */
+    overflow-y: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #888;
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #474646;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+::ng-deep .custom-style {
+    background-color: brown;
+    color: white;
+}
+
+.btn {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 0.6em;
+    color: red;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  
+    &:hover,
+    &:focus {
+      color: #fff;
+      outline: 0;
+    }
+  }
+  
+  //BUTTON 1
+  .first {
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    &:hover {
+      box-shadow: 0 0 40px 40px red inset;
+    }
+  }
